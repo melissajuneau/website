@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Melissa Juneau Portfolio</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <header>
-            <h1>Melissa Juneau</h1> <!--this would be my logo-->
-            <ol> <!--these links will be side by side and clickable-->
-                <li>Home</li>
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
-            </ol>
-        </header>
-        <section>
-            <h2>Melissa Juneau</h2>
-            <h3>Front End Web Designer Based In Canada</h3>
-            <p>I am passionate about bringing your indeas to life through creating visually appealing websites.</p>
-            <a> Get In Touch </a>
-        </section>
-
-    </body>
+  <head>
+    <title>Melissa Juneau Portfolio</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header id="topScroll">
+      <h1>Melissa Juneau</h1>
+      <!--this would be my logo-->
+      <ul>
+        <!--these links will be side by side and clickable-->
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <section>
+      <img
+        src="images/professional-lady.jpg"
+        alt="image of a lady"
+        width="200"
+        height="300">
+      <p><!--this is supposed to act as a caption for the image-->
+        This photo was sourced from
+        <a
+          href="https://unsplash.com/s/photos/web-designer?license=free"
+          target="_blank"
+          >Unsplash</a
+        >
+        <!--This is an absolute path link it links to external sources away from the website-->
+      </p>
+      <h2>Melissa Juneau</h2>
+      <h3>Front End Web Designer Based In Canada</h3>
+      <p>
+        I am passionate about bringing your ideas to life through creating
+        visually appealing websites.
+      </p>
+      <a href="contact.html"> Get In Touch </a>
+      <!--this would lead to the contact page on my website if there was one active at the moment and this is a relative path-->
+    </section>
+    <footer>
+       <a href="#topScroll"><p> Back to the top </p></a>
+    </footer>
+  </body>
 </html>
