@@ -1,0 +1,46 @@
+body {
+  background-color: whitesmoke;
+  color: darkslateblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+header {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+footer {
+  font-style: italic;
+}
