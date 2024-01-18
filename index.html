@@ -18,36 +18,39 @@
       <ul>
         <!--these links will be side by side and clickable-->
         <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="work.html">Work</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
-    <section>
-      <img
-        src="images/professional-lady.jpg"
-        alt="image of a lady"
-        width="200"
-        height="300"
-      />
-      <p>
-        <!--this is supposed to act as a caption for the image-->
-        This photo was sourced from
-        <a
-          href="https://unsplash.com/s/photos/web-designer?license=free"
-          target="_blank"
-          >Unsplash</a
-        >
-        <!--This is an absolute path link it links to external sources away from the website-->
-      </p>
+            <section class="photo">
+      <figure>
+        <img
+          src="images/professional-lady.jpg"
+          alt="image of a lady"
+          width="200"
+          height="300"
+        />
+        <figcaption>
+          This photo was sourced from
+          <a
+            href="https://unsplash.com/s/photos/web-designer?license=free"
+            target="_blank"
+            >Unsplash</a
+          >
+        </figcaption>
+      </figure>
+    </section>
+    <section class="information">
       <h2>Melissa Juneau</h2>
-      <h3>Front End Web Designer Based In Canada</h3>
       <p>
-        I am passionate about bringing your ideas to life through creating
-        visually appealing websites.
+        I am a front-end web designer based in Canada. I primarily work with
+        HTML, CSS, and JavaScript. I specialize in creating customized,
+        responsive and <strong><em>visually appealing</em></strong> websites for
+        my clients.
       </p>
-      <a href="contact.html"> Get In Touch </a>
+    <div class="wrapper-button"> <!--always tell the browser what type of button this is-->
+        <button type="button" onclick=""> Get In Touch </button>
       <!--this would lead to the contact page on my website if there was one active at the moment and this is a relative path-->
+</div>
     </section>
     <footer>
       <a href="#topScroll"><p>Back to the top</p></a>
