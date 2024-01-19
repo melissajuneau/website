@@ -6,7 +6,6 @@
 
 body {
   background-color: whitesmoke;
-  color: darkslateblue;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -14,17 +13,23 @@ body {
 }
 /* this controls my navigation? i think */
 header {
-  margin: 0px 0px 100px 0px;
+  margin: auto;
   padding: 20px;
   font-family: "Times New Roman", Times, serif;
-  background-color: rgba(201, 198, 198, 0.162);
+  background-color: #1F2833;
   border-bottom: 2px black solid;
   text-align: center;
 }
 
+.topScroll {
+  margin: auto;
+  color: black;
+  max-height: inherit;
+}
+
 ul li a {
   font-size: 16px;
-  color: rgb(187, 91, 56);
+  color: #66fcf1;
   font-family: "Roboto", sans-serif;
 }
 
@@ -39,7 +44,7 @@ li {
 }
 /* these are my headers and paragraphy controls*/
 h1 {
-  color: black;
+  color: whitesmoke;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   display: inline-block;
@@ -47,9 +52,9 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: #66fcf1;
   font-family: "Times New Roman", Times, serif;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -61,8 +66,8 @@ h3 {
 }
 
 p {
-  line-height: 20px;
-  margin: 30px 300px;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 /*this controlls the section where the photo and the photo caption are*/
@@ -73,38 +78,58 @@ p {
 }
 
 img {
+  margin-top: 100px;
   border: 1px solid darkslategrey;
   border-radius: 5%;
 }
 
 figcaption {
   font-size: 12px;
+  color: whitesmoke;
 }
 
 /*this controls the sections where the paragraph of information is*/
 .information {
   background-color: rgba(201, 198, 198, 0.162);
   border-bottom: 2px black solid;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
 }
+.information-paragraph{
+    color: whitesmoke;
+}
+
+.information-section{
+    max-width: 700px;
+    margin:auto;
+    padding: 30px;
+}
 .wrapper-button {
-padding: 15px;
+  padding: 15px;
+}
+
+.wrapper-backgroundimage {
+  background-image: url(images/background-image.jpg);
+  background-repeat: no-repeat;
 }
 
 button {
-    color: green;
-    background-color: whitesmoke;
-    padding: 10px;  
-    border-radius: 5px; 
-    font-size: 18px;
-    cursor: auto;
-    margin: auto;
+  color: black;
+  background-color:#66fcf1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: auto;
+  border: 3px solid black;
+}
+
+button:hover {
+  background-color: lightgray;
 }
 
 /* this controls the achnors tags and clickable links*/
 a {
-  color: green;
+  color: #66fcf1;
   text-decoration: none;
 }
 
@@ -114,10 +139,30 @@ a:hover {
 }
 
 footer {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-right: 0%;
-  margin-left: 0%;
+    background-color: #C5C6C7;
   text-align: center;
-  font-style: italic;
 }
+.footer-paragraph{
+    color:black;
+}
+
+.footer-container {
+    margin:auto;
+
+}
+/* This is where the extra code goes for the contact page*/
+.container-contact{
+    background-image: url(images/background-image.jpg);
+    padding: 200px;
+    text-align: center;
+}
+
+.copyright{
+    color: black;
+}
+
+.contact-paragraph{
+    color:whitesmoke;
+}
+
+

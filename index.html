@@ -21,39 +21,50 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
-            <section class="photo">
-      <figure>
-        <img
-          src="images/professional-lady.jpg"
-          alt="image of a lady"
-          width="200"
-          height="300"
-        />
-        <figcaption>
-          This photo was sourced from
-          <a
-            href="https://unsplash.com/s/photos/web-designer?license=free"
-            target="_blank"
-            >Unsplash</a
+    <div class="wrapper-backgroundimage">
+      <section class="photo">
+        <figure>
+          <img
+            src="images/professional-lady.jpg"
+            alt="image of a lady"
+            width="200"
+            height="300"
+          />
+          <figcaption>
+            This photo was sourced from
+            <a
+              href="https://unsplash.com/s/photos/web-designer?license=free"
+              target="_blank"
+              >Unsplash</a
+            >
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="information">
+        <h2>Melissa Juneau</h2>
+        <div class="information-section">
+          <p class="information-paragraph">
+            I am a front-end web designer based in Canada. I primarily work with
+            HTML, CSS, and JavaScript. I specialize in creating customized,
+            responsive and <strong><em>visually appealing</em></strong> websites
+            for my clients.
+          </p>
+        </div>
+        <div class="wrapper-button">
+          <!--always tell the browser what type of button this is-->
+          <a href="contact.html">
+            <button type="button">Get In Touch</button></a
           >
-        </figcaption>
-      </figure>
-    </section>
-    <section class="information">
-      <h2>Melissa Juneau</h2>
-      <p>
-        I am a front-end web designer based in Canada. I primarily work with
-        HTML, CSS, and JavaScript. I specialize in creating customized,
-        responsive and <strong><em>visually appealing</em></strong> websites for
-        my clients.
-      </p>
-    <div class="wrapper-button"> <!--always tell the browser what type of button this is-->
-        <button type="button" onclick=""> Get In Touch </button>
-      <!--this would lead to the contact page on my website if there was one active at the moment and this is a relative path-->
-</div>
-    </section>
-    <footer>
-      <a href="#topScroll"><p>Back to the top</p></a>
-    </footer>
+          <!--this would lead to the contact page on my website if there was one active at the moment and this is a relative path-->
+        </div>
+      </section>
+    </div>
+    <div class="footer-container">
+      <footer>
+        <a href="#topScroll"><p class="footer-paragraph">Back to the top</p></a>
+        <p>Website made by Melissa Juneau for educational purposes.</p>
+      </footer>
+    </div>
   </body>
 </html>
